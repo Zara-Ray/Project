@@ -5,7 +5,7 @@
 }
 
 body{
-    background: url(images/connect..jpg);
+    background: url(connect..jpg);
     text-align: center;
 }
 
@@ -35,7 +35,7 @@ span{
 
 form{
     box-shadow: 0px 7px rgba(0, 0, 0, 0.162);
-    background-image:url(images/network.jpg);
+    background-image:url(network.jpg);
     background-size: auto;
     width: 600px;
     display: inline-flex;
