@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="phonie.css">
+</head>
+<body>
+    <form>
+        <div class="container">
+            <div>
+                <i class="icon-error.svg"></i>
+                <input type="text" placeholder="First Name" name="first" required class="field">
+                <div class="error">First Name cannot be empty</div>
+            </div>
+            <div>
+                <i class="icon-error.svg"></i>
+                <input type="text" placeholder="Last Name" name="last" required="Last Name cannot be empty" class="field">
+                <div class="error">Last Name cannot be empty</div>
+            </div>
+            <div>
+                <i class="icon-error.svg"></i>
+                <input type="email" placeholder="Email Address" name="mail" required="" class="field">
+                <div class="error">Looks like this is not an email</div>
+            </div>
+            <div>
+                <i class="icon-error.svg"></i>
+                <input type="number" placeholder="Phone Number" name="number" required="" class="field">
+                <div class="error">Looks like this is not a valid number</div>
+            </div>
+            <div>
+                <i class="icon-error.svg"></i>
+                <input type="password" placeholder="Password" name="psw" required="" class="field">
+                <div class="error">Password cannot be empty</div>
+            </div>
+            <div class="done">
+                <button type="submit" class="signupbtn">SIGN UP</button>
+            </div>
+            <p>By clicking the button, you are agreeing to our <a href="#">Terms & Privacy</a></p>
+        </div>
+    </form>
+    <script src="script.js"></script>
+    <footer>
+        <button>
+            <a href="phonie.html" class="home">HOME</a>
+        </button>
+    </footer>
+    
+</body>
+</html>
